@@ -2,9 +2,9 @@ import yadisk
 import os
 class Ergokron_database:
     def __init__(self, token=None, db=None):
-        token = str(token)
-        if token == 'None':
+        if token == None:
             raise ValueError('The "token" parameter is None')
+        token = str(token)
         y = yadisk.YaDisk(token=token)
         if not y.check_token():
             raise ValueError('You need use valid token')
