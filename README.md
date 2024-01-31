@@ -7,4 +7,4 @@
 2) Поставьте разрешения как на картинке (https://ramziv.com/static/assets/post/2/3.jpg#thumbnail)
 
 
-После того как создали приложение, перейдите по ссылке https://oauth.yandex.ru/authorize?response_type=token&client_id=id заменив шв на свой айди приложения полученный после регистрации. Токен получен.
+После того как создали приложение, перейдите по ссылке https://oauth.yandex.ru/authorize?response_type=token&client_id=id заменив id на свой айди приложения полученный после регистрации. Токен получен.
